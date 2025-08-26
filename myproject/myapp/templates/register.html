@@ -1,0 +1,26 @@
+<a href="{% url 'register' %}">register</a>
+<a href="">Login</a>
+<!-- {{x}}
+
+ <hr/>
+{{x.as_p}}
+<hr/>
+{{x.as_table}}
+<hr/>
+{{x.as_ul}}
+<hr/> -->
+<!-- 
+{{x.ntame.label}}
+
+{{x.name}}
+{{x.name.errors}}  -->
+
+{% if x %}
+<form action="{% url 'register' %}"
+method="post"
+enc.type="'multipart/form-data">
+{% csrf_token %}
+{{x}}
+<button type="submit">Register</button>
+</form>
+{% endif %}
