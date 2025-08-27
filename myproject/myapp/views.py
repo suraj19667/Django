@@ -1,5 +1,6 @@
 from django.shortcuts import render
 from myapp.forms import RegisterForm
+from .models import Register
 
 def landpage(req):
     return render(req, 'register.html')
