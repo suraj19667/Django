@@ -1,0 +1,24 @@
+API= Application Programming Interface
+
+API -  Set of rules/instruction
+Work -that allows two different programming language to communication earch other
+
+# Set of rules
+    1.REST APIs
+    2.SOAP APIs
+    3.RPC APIs
+
+# Types of APIs
+    1.free APIs / Open APIs
+    2.Private APIs
+    3.Partner APIs
+    4.Composite APIs
+
+# REST APIs Rules
+    1.Client-server seperation
+    2.Used Single protocol(Http)
+    3.Common interface used for data transmission(JSON)
+    4.Stateless (vvi for interview)
+    5.Layed System
+    6.Cachebility
+    
